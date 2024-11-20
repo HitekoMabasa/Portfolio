@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>References</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Form container styling */
+        .form-container {
+            max-width: 500px;              /* Limit form width */
+            margin: 50px auto;             /* Center the form */
+            padding: 20px;
+            background-color: #f4f4f4;     /* Light gray background */
+            border: 1px solid #ccc;        /* Subtle border */
+            border-radius: 10px;           /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+            font-family: Arial, sans-serif; /* Font style */
+        }
+
+        /* Form title */
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;                  /* Dark gray text */
+        }
+
+        /* Input fields styling */
+        .form-container input[type="text"],
+        .form-container input[type="email"],
+        .form-container input[type="tel"],
+        .form-container textarea {
+            width: 100%;                 /* Full width */
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;      /* Light border */
+            border-radius: 5px;          /* Rounded corners */
+            font-size: 16px;
+        }
+
+        /* Submit button styling */
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;   /* Blue background */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Button hover effect */
+        .form-container button:hover {
+            background-color: #0056b3;   /* Darker blue */
+        }
+
+        /* Responsive styling */
+        @media (max-width: 600px) {
+            .form-container {
+                padding: 15px;
+            }
+            .form-container h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+    
+    
+</head>
+
+<body class="references-page">
+    
+    
+    <header>
+        <h1>References</h1>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+        </nav>
+    </header>
+    <main>
+        <body style= background-image:url('back-about.jpg') center/cover no-repeat>
+           
+        <section>
+            <h2><b><p class= "orange-text">Work Experience</p></b></h2>
+            <div class="border-box">
+                <b><p class="blue-text">1.GIJIMA HOLDINGS- IT intern (one year)</p></b>
+
+                <p><b>Mentor</b>-Mr Dennis Nyatwa 06344414157</p>
+                <b><p class="blue-text">2.CAPACITI- Devops intern (CURRENT)</b></p>
+                <p><b>Talent Coach</b>-Ms Kefiloe Mphya</p>
+                <p><b>Mentor</b>-Ms Rokhuda Tshitimbi</p>
+
+            </div>
+            
+           
+            <div class="form-container">
+                <h2>Contact Me</h2>
+                <form action="submit_contact.php" method="post">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+        
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here"></textarea>
+        
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    
+    </main>
+    
+</body>
+</html>

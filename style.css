@@ -1,0 +1,122 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Main Page Styles */
+.video-background {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.content h1 {
+    margin-top: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.profile-pic {
+    margin: 20px auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    border: 3px solid white;
+}
+
+.navigation {
+    margin: 10px 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.navigation a:hover {
+    background: whitesmoke;
+    color: #1ea3cc;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+/* About Page Styles */
+.about-page {
+    background: url('back-about.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+
+}
+.references-page{
+    background: url('back-about.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+
+}
+.blue-text {
+    color: rgb(41, 85, 105);
+}
+.orange-text{
+    color: rgb(146, 102, 45);
+}
+.white-text{
+    color:bisque;
+}
+
+
+selector {
+    border: 2px blue; 
+    background-color: black; 
+    padding: 10px; 
+}
+
+.social-media a img {
+    width: 50px;
+    margin: 5px;
+}
+
+/* References Page Styles */
+.references-page {
+    background: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.reference-images img {
+    width: 6%;
+    margin: 3px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
